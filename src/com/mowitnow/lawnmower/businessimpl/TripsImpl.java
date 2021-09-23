@@ -30,7 +30,7 @@ public class TripsImpl implements Trips {
 	}
 	
 	/**
-	 * move to North or South
+	 * move to WEST or EAST
 	 * @param mowerX
 	 */
 	private void moveToX(Mower mowerX) {
@@ -46,7 +46,7 @@ public class TripsImpl implements Trips {
 	}
 	
 	/**
-	 * move to West or East
+	 * move to NORTH or SOUTH
 	 * @param mowerY
 	 */
 	private void moveToY(Mower mowerY) {
